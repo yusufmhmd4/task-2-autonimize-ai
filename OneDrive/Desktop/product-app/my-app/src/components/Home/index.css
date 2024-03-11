@@ -1,0 +1,40 @@
+.home-container{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+}
+.home-heading{
+    font-family: Roboto;
+    font-size: 2rem;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: .6rem;
+}
+@media screen and (max-width:768px){
+   .home-heading{
+    font-size: 1.5rem;
+   }
+}
+.category-list-container{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 750px;
+    margin:0.8rem auto;
+    flex-wrap: wrap;
+
+    
+}
+.product-list-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
