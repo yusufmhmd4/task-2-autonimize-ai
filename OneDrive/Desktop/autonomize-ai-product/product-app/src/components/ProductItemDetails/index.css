@@ -1,0 +1,52 @@
+.product-details-container{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    text-align: center;
+}
+.product-details-image{
+    width: 250px;
+}
+.product-details{
+    text-align: start;
+    margin-top: 1.5rem;
+}
+.product-details-title{
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.product-details-description{
+    margin: 1rem 0;
+    font-family: Roboto;
+    font-size: 1rem;
+    color: rgb(132, 137, 141);
+}
+
+.add-to-cart{
+  font-family: Roboto;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #59acf4;
+  padding: 0.4rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+
+}
+
+.product-details-price{
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 700;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

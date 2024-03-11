@@ -1,0 +1,31 @@
+.category-item{
+    padding: 0.5rem;
+    
+}
+@media screen and (max-width:500px){
+    .category-item{
+        width: 46%;
+    }
+}
+.category-button{
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 12px;
+
+}
+@media screen and (min-width:768px){
+    .category-button{
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+.active{
+    background-color: rgb(130, 130, 228);
+    color: #fff;
+}
