@@ -1,4 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore all files and directories except 'my-app'
+/*
+!/my-app
 
 # dependencies
 /node_modules
